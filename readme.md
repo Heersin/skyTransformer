@@ -30,6 +30,11 @@ virtualenv venv
 pip install -r requirements.txt
 ```
 
+## 效果
+小星星的选段
+![twinkle twinkle little star](https://github.com/Heersin/skyTransformer/blob/master/python/src/output/music.png)
+
+
 ## 快速上手
 暂未实现命令，目前处于测试阶段，可使用python skyTransformer.py 运行，其将会把test/test_origin.txt 转换为格子谱图片
 
