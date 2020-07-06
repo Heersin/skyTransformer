@@ -71,7 +71,7 @@ optional arguments:
 ```
 
 ## 依赖项
-Pass
+python依赖位于requirements.txt
 
 ## 开发指南
 ### 项目结构
@@ -102,5 +102,6 @@ skytransformer
 ### 开发文档
 [开发文档在这里(无)](#)
 ## 贡献
-感谢使用本项目，欢迎在issue区提出想增加的功能，也可以反映bug。或者可以发送到我的邮箱teablearcher@gmail.com
+感谢使用本项目，欢迎在issue区提出想增加的功能，也可以反映bug。
+
 
