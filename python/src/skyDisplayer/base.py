@@ -2,5 +2,5 @@ from abc import ABCMeta, abstractmethod
 
 class BaseDisplayer(metaclass=ABCMeta):
     @abstractmethod
-    def display(self, tuple_list):
+    def display(self, tuple_list, filename):
         pass

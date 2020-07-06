@@ -166,10 +166,11 @@ class picsPlayer(BaseDisplayer):
 
         return big_board
 
-    def display(self, data):
+    def display(self, data, output_filename):
         print(data)
         big_board = self.genMore(data)
-        cv2.imshow('canvas', big_board)
-        cv2.waitKey(0)
-        cv2.imwrite("music.png", big_board)
+        #cv2.imshow('canvas', big_board)
+        #cv2.waitKey(0)
+        output_filename = "./output/" + output_filename
+        cv2.imwrite(output_filename, big_board)
         cv2.destroyAllWindows()

@@ -36,10 +36,39 @@ pip install -r requirements.txt
 
 
 ## 快速上手
-暂未实现命令，目前处于测试阶段，可使用python skyTransformer.py 运行，其将会把test/test_origin.txt 转换为格子谱图片
+```
+查看支持的格式:
+  python main.py -l
+
+查看示例用法
+  python main.py -s
+
+查看命令帮助
+  python main.py -h
+
+转换（在output路径下可查看结果）
+  python main.py -i test/test_origin  默认输出图片
+or
+  python main.py -i test/test_origin -o test.png 输出图片
+or
+  python main.py -i test/test_origin -o test.txt 输出文本（命令行效果）
+```
 
 ## 用法
-暂未实现命令
+```
+usage: main.py [-h] [-l | -s] [-i INPUT_FILE] [-o OUTPUT]
+
+Sky Notation Tranformer
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l, --list            list support formats
+  -s, --show            show usage example
+  -i INPUT_FILE, --input_file INPUT_FILE
+                        input file name
+  -o OUTPUT, --output OUTPUT
+                        output file name(no path)
+```
 
 ## 依赖项
 Pass
@@ -74,3 +103,4 @@ skytransformer
 [开发文档在这里(无)](#)
 ## 贡献
 感谢使用本项目，欢迎在issue区提出想增加的功能，也可以反映bug。或者可以发送到我的邮箱teablearcher@gmail.com
+
